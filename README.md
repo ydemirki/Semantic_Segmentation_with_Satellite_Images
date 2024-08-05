@@ -8,8 +8,6 @@ This project focuses on classifying satellite images using the EfficientNet-B0 m
 The model is trained using the following parameters:
 
 Number of epochs: 15
-Test interval: 1 epoch
-Initial best accuracy: 0.0
 Learning rate scheduler: StepLR
 ### Training Loop
 The training loop includes the following steps:
