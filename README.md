@@ -1,4 +1,4 @@
-# Semantic Segmentation with Satellite images
+# Semantic Segmentation with MSI and SAR images
 
 This project focuses on classifying satellite images using the EfficientNet-B0 model. The model has been trained to distinguish between various classes of satellite images, such as schools, airports, parks, and approximately 15 other categories.
 
