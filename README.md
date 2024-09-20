@@ -1,6 +1,6 @@
 # Semantic Segmentation with MSI and SAR images
 
-This project focuses on classifying satellite images using the Resnet50 model. The model has been trained to distinguish between various classes of satellite images, such as schools, airports, parks, and approximately 15 other categories.
+This project focuses on classifying satellite images using the Resnet50 model. The model has been trained to distinguish between various classes of satellite images, such as Background, Surface Water, Road, Urban Fabric, Industrial and approximately 10 other categories.
 
 ## Model Training
 
@@ -12,7 +12,7 @@ Learning rate scheduler: StepLR
 ### Training Loop
 The training loop includes the following steps:
 
-Load the EfficientNet-B0 model and configure the last layer to match the number of output classes.
+Load the ResNet model and configure the last layer to match the number of output classes.
 Train the model using the training dataset and evaluate it on the test dataset at regular intervals.
 Track the training loss and accuracy for each epoch.
 Evaluate the model's performance on the test dataset and adjust training if accuracy decreases for consecutive epochs.
