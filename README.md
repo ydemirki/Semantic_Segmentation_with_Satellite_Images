@@ -1,13 +1,13 @@
 # Semantic Segmentation with MSI and SAR images
 
-This project focuses on classifying satellite images using the EfficientNet-B0 model. The model has been trained to distinguish between various classes of satellite images, such as schools, airports, parks, and approximately 15 other categories.
+This project focuses on classifying satellite images using the Resnet50 model. The model has been trained to distinguish between various classes of satellite images, such as schools, airports, parks, and approximately 15 other categories.
 
 ## Model Training
 
 ### Training Parameters
 The model is trained using the following parameters:
 
-Number of epochs: 15
+Number of epochs: 150 (Not necessary)
 Learning rate scheduler: StepLR
 ### Training Loop
 The training loop includes the following steps:
